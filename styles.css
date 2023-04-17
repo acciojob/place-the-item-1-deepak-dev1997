@@ -1,2 +1,26 @@
+.holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
+.item {
+  background-color: #F8D6B8;
+  border: 2px solid #E6B89C;
+  border-radius: 10px;
+  color: #8E5736;
+  font-size: 18px;
+  padding: 10px;
+  margin-bottom: 10px;
+  flex-grow: 1;
+  flex-basis: calc(20% - 10px);
+}
+
+.item:first-child {
+  margin-right: 10px;
+}
+
+.item:last-child {
+  margin-left: 10px;
+}
 /* Your CSS Code here. */
